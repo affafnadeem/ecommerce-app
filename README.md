@@ -8,10 +8,9 @@ A full-stack e-commerce web application built with **React** on the frontend and
 ### Product View
 <img width="955" height="436" alt="Screenshot 2026-04-17 225254" src="https://github.com/user-attachments/assets/98ffa330-96e3-42d5-8e8e-6587be3a836e" />
 
-
-### Cart Modal
 <img width="955" height="438" alt="Screenshot 2026-04-17 225322" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
 
+### Cart Modal
 
 ---
 
@@ -36,23 +35,6 @@ A full-stack e-commerce web application built with **React** on the frontend and
 | Database   | MySQL (via mysql2)          |
 | HTTP       | Axios                       |
 | Dev Tools  | Concurrently, React Scripts |
-
----
-
-## 📁 Project Structure
-ecommerce-app/
-├── backend/
-│ └── server.js # Express server entry point
-├── src/
-│ ├── components/
-│ │ ├── ProductCard.js # Product display card
-│ │ └── CartModal.js # Shopping cart modal
-│ ├── services/
-│ │ └── api.js # Axios API service calls
-│ └── App.js # Main React app component
-├── package.json
-└── README.md
-
 
 ---
 
@@ -117,7 +99,3 @@ Query params for `/api/products`: `category`, `search`, `sort`
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-
-## 📄 License
-
-[MIT](LICENSE)
