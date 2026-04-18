@@ -2,13 +2,13 @@
 
 > A full-stack e-commerce web application built with **React** on the frontend and **Express.js** on the backend, powered by a **MySQL** database.
 
+![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react)
+![Express](https://img.shields.io/badge/Express-4.18-000000?style=flat&logo=express)
+![MySQL](https://img.shields.io/badge/MySQL-3.6-4479A1?style=flat&logo=mysql)
+![Node](https://img.shields.io/badge/Node.js-Backend-339933?style=flat&logo=node.js)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
-
-
-
-
-
-***
+---
 
 ## 📸 Screenshots
 
@@ -18,9 +18,10 @@
 ### Product View
 <img width="955" height="436" alt="Product View" src="https://github.com/user-attachments/assets/98ffa330-96e3-42d5-8e8e-6587be3a836e" />
 
+### Cart View
 <img width="955" height="438" alt="Cart View" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
 
-***
+---
 
 ## 🚀 Features
 
@@ -32,7 +33,7 @@
 - ⚡ Fast API communication via Axios
 - 🌐 Full-stack concurrent dev server
 
-***
+---
 
 ## 🧱 Tech Stack
 
@@ -44,26 +45,7 @@
 | HTTP       | Axios                       |
 | Dev Tools  | Concurrently, React Scripts |
 
-***
-
-## 📁 Project Structure
-
-```
-ecommerce-app/
-├── backend/              # Express server & API routes
-├── public/               # Static assets (index.html, icons)
-├── src/
-│   ├── components/       # Reusable React components (ProductCard, CartModal)
-│   ├── services/         # Axios API service calls
-│   └── App.js            # Main React app (state, filters, cart logic)
-├── .gitignore            # Files ignored by Git
-├── package.json          # Dependencies & scripts
-├── package-lock.json     # Locked dependency versions
-└── README.md             # Project documentation
-```
-
-***
-
+---
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -93,7 +75,7 @@ ecommerce-app/
    npm run dev
    ```
 
-***
+---
 
 ## 🌐 Running Locally
 
@@ -104,19 +86,19 @@ ecommerce-app/
 
 > **Note:** The React app proxies API requests to `localhost:5000` automatically — no manual CORS config needed during development.
 
-***
+---
 
 ## 📜 Available Scripts
 
-| Script              | Description                          |
-|---------------------|--------------------------------------|
-| `npm run dev`       | Run both frontend & backend together |
-| `npm start`         | Start the Express backend only       |
-| `npm run client`    | Start the React frontend only        |
-| `npm run build`     | Build React app for production       |
-| `npm test`          | Run React tests                      |
+| Script            | Description                          |
+|-------------------|--------------------------------------|
+| `npm run dev`     | Run both frontend & backend together |
+| `npm start`       | Start the Express backend only       |
+| `npm run client`  | Start the React frontend only        |
+| `npm run build`   | Build React app for production       |
+| `npm test`        | Run React tests                      |
 
-***
+---
 
 ## 📡 API Endpoints
 
@@ -127,18 +109,19 @@ ecommerce-app/
 
 **Query params for `/api/products`:** `category`, `search`, `sort`
 
-***
+---
 
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-***
+---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-***
+---
 
 ⭐ Found this useful? Give it a star!
+
