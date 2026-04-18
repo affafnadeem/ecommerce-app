@@ -1,6 +1,17 @@
 # 🛒 E-Commerce App
 
 A full-stack e-commerce web application built with **React** on the frontend and **Express.js** on the backend, powered by a **MySQL** database.
+### Home Page
+<img width="955" height="437" alt="Screenshot 2026-04-17 225229" src="https://github.com/user-attachments/assets/8e6694b5-19d8-4d99-826f-e85ca3da5416" />
+
+
+### Product View
+<img width="955" height="436" alt="Screenshot 2026-04-17 225254" src="https://github.com/user-attachments/assets/98ffa330-96e3-42d5-8e8e-6587be3a836e" />
+
+
+### Cart Modal
+<img width="955" height="438" alt="Screenshot 2026-04-17 225322" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
+
 
 ---
 
