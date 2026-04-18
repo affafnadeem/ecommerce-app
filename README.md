@@ -1,17 +1,26 @@
 # 🛒 E-Commerce App
 
-A full-stack e-commerce web application built with **React** on the frontend and **Express.js** on the backend, powered by a **MySQL** database.
-### Home Page
-<img width="955" height="437" alt="Screenshot 2026-04-17 225229" src="https://github.com/user-attachments/assets/8e6694b5-19d8-4d99-826f-e85ca3da5416" />
+> A full-stack e-commerce web application built with **React** on the frontend and **Express.js** on the backend, powered by a **MySQL** database.
 
+
+
+
+
+
+
+***
+
+## 📸 Screenshots
+
+### Home Page
+<img width="955" height="437" alt="Home Page" src="https://github.com/user-attachments/assets/8e6694b5-19d8-4d99-826f-e85ca3da5416" />
 
 ### Product View
-<img width="955" height="436" alt="Screenshot 2026-04-17 225254" src="https://github.com/user-attachments/assets/98ffa330-96e3-42d5-8e8e-6587be3a836e" />
+<img width="955" height="436" alt="Product View" src="https://github.com/user-attachments/assets/98ffa330-96e3-42d5-8e8e-6587be3a836e" />
 
-<img width="955" height="438" alt="Screenshot 2026-04-17 225322" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
+<img width="955" height="438" alt="Cart View" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
 
-
----
+***
 
 ## 🚀 Features
 
@@ -23,7 +32,7 @@ A full-stack e-commerce web application built with **React** on the frontend and
 - ⚡ Fast API communication via Axios
 - 🌐 Full-stack concurrent dev server
 
----
+***
 
 ## 🧱 Tech Stack
 
@@ -35,17 +44,25 @@ A full-stack e-commerce web application built with **React** on the frontend and
 | HTTP       | Axios                       |
 | Dev Tools  | Concurrently, React Scripts |
 
----
-## 🌐 Running Locally
+***
 
-After running `npm run dev`, the app will be available at:
+## 📁 Project Structure
 
-| Service     | URL                                          |
-|-------------|----------------------------------------------|
-| Frontend    | [http://localhost:3000](http://localhost:3000) |
-| Backend API | [http://localhost:5000](http://localhost:5000) |
+```
+ecommerce-app/
+├── backend/              # Express server & API routes
+├── public/               # Static assets (index.html, icons)
+├── src/
+│   ├── components/       # Reusable React components (ProductCard, CartModal)
+│   ├── services/         # Axios API service calls
+│   └── App.js            # Main React app (state, filters, cart logic)
+├── .gitignore            # Files ignored by Git
+├── package.json          # Dependencies & scripts
+├── package-lock.json     # Locked dependency versions
+└── README.md             # Project documentation
+```
 
-> **Note:** The React app proxies API requests to `localhost:5000` automatically, so you don't need to configure CORS manually during development.
+***
 
 ## ⚙️ Getting Started
 
@@ -71,40 +88,57 @@ After running `npm run dev`, the app will be available at:
    - Create a MySQL database
    - Update your database credentials in `backend/server.js`
 
-4. **Run the app (frontend + backend together)**
+4. **Run the app**
    ```bash
    npm run dev
    ```
 
-   This runs the Express server on `http://localhost:5000` and the React app on `http://localhost:3000` concurrently.
+***
 
----
+## 🌐 Running Locally
+
+| Service     | URL                                            |
+|-------------|------------------------------------------------|
+| Frontend    | [http://localhost:3000](http://localhost:3000) |
+| Backend API | [http://localhost:5000](http://localhost:5000) |
+
+> **Note:** The React app proxies API requests to `localhost:5000` automatically — no manual CORS config needed during development.
+
+***
 
 ## 📜 Available Scripts
 
-| Script        | Description                            |
-|---------------|----------------------------------------|
-| `npm start`   | Start the Express backend only         |
-| `npm run client` | Start the React frontend only       |
-| `npm run dev` | Run both frontend & backend together   |
-| `npm run build` | Build React app for production       |
-| `npm test`    | Run React tests                        |
+| Script              | Description                          |
+|---------------------|--------------------------------------|
+| `npm run dev`       | Run both frontend & backend together |
+| `npm start`         | Start the Express backend only       |
+| `npm run client`    | Start the React frontend only        |
+| `npm run build`     | Build React app for production       |
+| `npm test`          | Run React tests                      |
 
----
+***
 
-## 🌐 API Endpoints
+## 📡 API Endpoints
 
 | Method | Endpoint            | Description              |
 |--------|---------------------|--------------------------|
 | GET    | `/api/products`     | Fetch all products       |
 | GET    | `/api/categories`   | Fetch product categories |
 
-Query params for `/api/products`: `category`, `search`, `sort`
+**Query params for `/api/products`:** `category`, `search`, `sort`
 
----
+***
 
 ## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
----
+***
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+***
+
+⭐ Found this useful? Give it a star!
