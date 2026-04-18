@@ -10,7 +10,6 @@ A full-stack e-commerce web application built with **React** on the frontend and
 
 <img width="955" height="438" alt="Screenshot 2026-04-17 225322" src="https://github.com/user-attachments/assets/becc76fa-92de-4704-b911-f0accbedbfe2" />
 
-### Cart Modal
 
 ---
 
@@ -37,6 +36,16 @@ A full-stack e-commerce web application built with **React** on the frontend and
 | Dev Tools  | Concurrently, React Scripts |
 
 ---
+## 🌐 Running Locally
+
+After running `npm run dev`, the app will be available at:
+
+| Service     | URL                                          |
+|-------------|----------------------------------------------|
+| Frontend    | [http://localhost:3000](http://localhost:3000) |
+| Backend API | [http://localhost:5000](http://localhost:5000) |
+
+> **Note:** The React app proxies API requests to `localhost:5000` automatically, so you don't need to configure CORS manually during development.
 
 ## ⚙️ Getting Started
 
